@@ -6,10 +6,10 @@ Basic_Html_Bootstrap_Corporate_Theme
 
 To deploy this project run
 
-```bash
-  Extract file
-  Open index.html on your browser
-```
+
+Extract file
+Open index.html on your browser
+
 
 
 ## Acknowledgements
