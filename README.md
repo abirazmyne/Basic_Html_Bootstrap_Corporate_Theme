@@ -28,15 +28,13 @@ This repository contains a modern and responsive corporate theme built with HTML
 
 
 ## Screenshots
-Home:![Screenshot_4](https://github.com/abirazmyne/Basic_Html_Bootstrap_Corporate_Theme/assets/114304896/a086f23e-92e6-4d91-b908-e804ed1d6eee)
+Home:![Screenshot_2](https://github.com/abirazmyne/Basic_Html_Bootstrap_Corporate_Theme/assets/114304896/8c767ae3-f075-49d5-ab8f-232638effc9c)
 
-About:![Screenshot_6](https://github.com/abirazmyne/Basic_Html_Bootstrap_Corporate_Theme/assets/114304896/0055170b-53c3-4df2-934e-75f44bbe2385)
+About:![Screenshot_4](https://github.com/abirazmyne/Basic_Html_Bootstrap_Corporate_Theme/assets/114304896/dda9610b-2a1b-41da-a7ab-416304f85016)
 
-Contact:![Screenshot_7](https://github.com/abirazmyne/Basic_Html_Bootstrap_Corporate_Theme/assets/114304896/9036e4bb-318a-40f2-afa8-2f0e23f5faf0)
+Contact:![Screenshot_3](https://github.com/abirazmyne/Basic_Html_Bootstrap_Corporate_Theme/assets/114304896/5bca0485-b556-4f69-b3d6-c733cd8c975b)
 
-Projects:![Screenshot_5](https://github.com/abirazmyne/Basic_Html_Bootstrap_Corporate_Theme/assets/114304896/3fbf8a45-1b67-46fd-884e-b6219998979e)
-
-
+Projects:![Screenshot_5](https://github.com/abirazmyne/Basic_Html_Bootstrap_Corporate_Theme/assets/114304896/8242de9f-fabf-4400-89f4-b4b696f51775)
 
 
 
