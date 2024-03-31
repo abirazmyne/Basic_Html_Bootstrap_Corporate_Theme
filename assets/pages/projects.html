@@ -36,7 +36,7 @@
 	<nav class="navbar navbar-expand-md ">
 		<div class="container">
 			<a class="navbar-brand" href="#">
-				<img src="../images/logome.png" alt="" style="height: 65px">
+				<img src="../images/bayit.png" alt="" class="img-fluid" style="max-height: 40px">
 			</a>
 			<button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
 					aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -48,20 +48,7 @@
 					<li class="nav-item">
 						<a class="nav-link weblink" href="../../index.html">Home</a>
 					</li>
-<!--					<li class="dropdown myDropdown">-->
-<!--						<a class="nav-link dropdown-toggle" href="services.html" data-bs-toggle="dropdown"-->
-<!--						   aria-expanded="false">Services</a>-->
-<!--						<ul class="dropdown-menu border-0 ">-->
-<!--							<li><a class="dropdown-item" href="#">UI/UX</a></li>-->
-<!--							<li><a class="dropdown-item" href="#">Graphics Design</a></li>-->
-<!--							<li><a class="dropdown-item" href="#">Web Development</a></li>-->
-<!--							<li><a class="dropdown-item" href="#">Mobile Application</a></li>-->
-<!--							<li><a class="dropdown-item" href="#">Software Development</a></li>-->
-<!--							<li><a class="dropdown-item" href="#">Software Support</a></li>-->
-<!--							<li><a class="dropdown-item" href="#">ERP Development</a></li>-->
-<!--							<li><a class="dropdown-item" href="#">Database Administration</a></li>-->
-<!--						</ul>-->
-<!--					</li>-->
+
 					<li class="nav-item"><a class="nav-link weblink" href="services.html">Services</a></li>
 					<li class="nav-item"><a class="nav-link weblink" href="projects.html">Projects</a></li>
 					<li class="nav-item"><a class="nav-link weblink" href="carrer.html">Career </a></li>
@@ -101,135 +88,197 @@
 	</header>
 </div>
 <!-- ==================== End Header ==================== -->
+<style>
+	.my_wapper {
+		position: relative;
+		overflow: hidden;
+	}
+	.my_wapper .card-img {
+		text-align: center;
+		position: relative;
+		overflow: hidden;
+		transition: all 0.3s ease-out;
+	}
+	.my_wapper .card-img img {
+		transition: all 0.3s ease-in-out;
+		border-radius: 0.25rem;
+		border-radius: 0.25rem;
+	}
+	.my_wapper .card-body {
+		position: absolute;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		visibility: hidden;
+		padding: 30px;
+		text-align: center;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		border-radius: 0.25rem;
+		transform: translateX(-100%);
+		transition: 0.8s;
+		z-index: 11;
+	}
+	.my_wapper:before {
+		content: "";
+		width: 100%;
+		position: absolute;
+		height: 100%;
+		top: 0;
+		right: 100%;
+		z-index: 9;
+		transition: 0.8s;
+		background: rgba(43, 119, 189, 0.85);
+		border-radius: 0.25rem;
+	}
+	.my_wapper:hover:before {
+		right: 0;
+	}
+	.my_wapper h3,
+	.my_wapper p {
+		color: #fff;
+	}
+	.my_wapper .read-more {
+		color: #fff;
+	}
+	.my_wapper .read-more:after {
+		color: #fff;
+	}
+	.my_wapper:hover .card-body {
+		visibility: visible;
+		transform: translateX(0px);
+	}
+	.my_wapper:hover .backgound-color {
+		right: 0;
+	}
 
-
+	.mb-1-9, .my-1-9 {
+		margin-bottom: 1.9rem;
+	}
+	@media (min-width: 992px){
+		.mb-lg-0, .my-lg-0 {
+			margin-bottom: 0 !important;
+		}
+	}
+	.read-more:after {
+		content: '\f0a9';
+		font-family: Font Awesome\ 5 Free;
+		font-weight: 600;
+		padding-left: 8px;
+		font-weight: 900;
+		color: #2b77bd;
+		vertical-align: middle;
+	}
+</style>
 
 
 <section>
 	<div class="container">
-		<div class="row  sectionpadding one">
-			<h1 class="text-center heading">Our services</h1>
-		</div>
-		<div class="row  ourServices">
-			<div class="col-lg-4 col-xl-3 col-md-6 col-sm-12">
-				<a href="uiu.html" class="servicelink">
-					<div class="card servicecard">
-						<div class="ratio ratio-4x3 serviceimage">
-							<img src="../images/uiux1.png" class="img-fluid" alt="">
-						</div>
-						<div class="card-body cardbgmy ">
-							<h4 class="">UI/UX</h4>
-							<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi architecto aspernatur cumque dignissimos distinctio ea eos esse excepturi expedita, fugit ipsum iure necessitatibus nisi, reiciendis rem saepe unde. Commodi consequuntur error, excepturi exercitationem fugiat ipsam molestias mollitia pariatur, quis tempora tempore ut voluptatem voluptatum. Accusamus aut earum repellat sapiente veniam?</p>
-						</div>
-						<button class="btn mybtn  text-center text-white rounded-0" > Read More </button>
-					</div>
-				</a>
-			</div>
-			<div class="col-lg-4 col-xl-3 col-md-6 col-sm-12">
-				<a href="uiu.html" class="servicelink">
-					<div class="card servicecard">
-						<div class="ratio ratio-4x3 serviceimage">
-							<img src="../images/graphics.png" class="img-fluid" alt="">
-						</div>
-						<div class="card-body cardbgmy ">
-							<h4 class="">Graphics Design</h4>
-							<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi architecto aspernatur cumque dignissimos distinctio ea eos esse excepturi expedita, fugit ipsum iure necessitatibus nisi, reiciendis rem saepe unde. Commodi consequuntur error, excepturi exercitationem fugiat ipsam molestias mollitia pariatur, quis tempora tempore ut voluptatem voluptatum. Accusamus aut earum repellat sapiente veniam?</p>
-						</div>
-						<button class="btn mybtn  text-center text-white rounded-0" > Read More </button>
-					</div>
-				</a>
-			</div>
-			<div class="col-lg-4 col-xl-3 col-md-6 col-sm-12">
-				<a href="uiu.html" class="servicelink">
-					<div class="card servicecard">
-						<div class="ratio ratio-4x3 serviceimage">
-							<img src="../images/webdesign.png" class="img-fluid" alt="">
-						</div>
-						<div class="card-body cardbgmy ">
-							<h4 class="">Web Development</h4>
-							<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi architecto aspernatur cumque dignissimos distinctio ea eos esse excepturi expedita, fugit ipsum iure necessitatibus nisi, reiciendis rem saepe unde. Commodi consequuntur error, excepturi exercitationem fugiat ipsam molestias mollitia pariatur, quis tempora tempore ut voluptatem voluptatum. Accusamus aut earum repellat sapiente veniam?</p>
-						</div>
-						<button class="btn mybtn  text-center text-white rounded-0" > Read More </button>
-					</div>
-				</a>
-			</div>
-			<div class="col-lg-4 col-xl-3 col-md-6 col-sm-12">
-				<a href="uiu.html" class="servicelink">
-					<div class="card servicecard">
-						<div class="ratio ratio-4x3 serviceimage">
-							<img src="../images/mobile.png" class="img-fluid" alt="">
-						</div>
-						<div class="card-body cardbgmy ">
-							<h4 class="">Mobile Application</h4>
-							<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi architecto aspernatur cumque dignissimos distinctio ea eos esse excepturi expedita, fugit ipsum iure necessitatibus nisi, reiciendis rem saepe unde. Commodi consequuntur error, excepturi exercitationem fugiat ipsam molestias mollitia pariatur, quis tempora tempore ut voluptatem voluptatum. Accusamus aut earum repellat sapiente veniam?</p>
-						</div>
-						<button class="btn mybtn  text-center text-white rounded-0" > Read More </button>
-					</div>
-				</a>
-			</div>
-			<div class="col-lg-4 col-xl-3 col-md-6 col-sm-12">
-				<a href="uiu.html" class="servicelink">
-					<div class="card servicecard">
-						<div class="ratio ratio-4x3 serviceimage">
-							<img src="../images/software.png" class="img-fluid" alt="">
-						</div>
-						<div class="card-body cardbgmy ">
-							<h4 class="">Software Development</h4>
-							<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi architecto aspernatur cumque dignissimos distinctio ea eos esse excepturi expedita, fugit ipsum iure necessitatibus nisi, reiciendis rem saepe unde. Commodi consequuntur error, excepturi exercitationem fugiat ipsam molestias mollitia pariatur, quis tempora tempore ut voluptatem voluptatum. Accusamus aut earum repellat sapiente veniam?</p>
-						</div>
-						<button class="btn mybtn  text-center text-white rounded-0" > Read More </button>
-					</div>
-				</a>
-			</div>
-			<div class="col-lg-4 col-xl-3 col-md-6 col-sm-12">
-				<a href="uiu.html" class="servicelink">
-					<div class="card servicecard">
-						<div class="ratio ratio-4x3 serviceimage">
-							<img src="../images/support.png" class="img-fluid" alt="">
-						</div>
-						<div class="card-body cardbgmy ">
-							<h4 class="">Support & Maintenance</h4>
-							<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi architecto aspernatur cumque dignissimos distinctio ea eos esse excepturi expedita, fugit ipsum iure necessitatibus nisi, reiciendis rem saepe unde. Commodi consequuntur error, excepturi exercitationem fugiat ipsam molestias mollitia pariatur, quis tempora tempore ut voluptatem voluptatum. Accusamus aut earum repellat sapiente veniam?</p>
-						</div>
-						<button class="btn mybtn  text-center text-white rounded-0" > Read More </button>
-					</div>
-				</a>
-			</div>
-			<div class="col-lg-4 col-xl-3 col-md-6 col-sm-12">
-				<a href="uiu.html" class="servicelink">
-					<div class="card servicecard">
-						<div class="ratio ratio-4x3 serviceimage">
-							<img src="../images/erp.png" class="img-fluid" alt="">
-						</div>
-						<div class="card-body cardbgmy ">
-							<h4 class="">ERP Development</h4>
-							<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi architecto aspernatur cumque dignissimos distinctio ea eos esse excepturi expedita, fugit ipsum iure necessitatibus nisi, reiciendis rem saepe unde. Commodi consequuntur error, excepturi exercitationem fugiat ipsam molestias mollitia pariatur, quis tempora tempore ut voluptatem voluptatum. Accusamus aut earum repellat sapiente veniam?</p>
-						</div>
-						<button class="btn mybtn  text-center text-white rounded-0" > Read More </button>
-					</div>
-				</a>
-			</div>
-			<div class="col-lg-4 col-xl-3 col-md-6 col-sm-12">
-				<a href="uiu.html" class="servicelink">
-					<div class="card servicecard">
-						<div class="ratio ratio-4x3 serviceimage">
-							<img src="../images/database.png" class="img-fluid" alt="">
-						</div>
-						<div class="card-body cardbgmy ">
-							<h4 class="">DB Administration</h4>
-							<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi architecto aspernatur cumque dignissimos distinctio ea eos esse excepturi expedita, fugit ipsum iure necessitatibus nisi, reiciendis rem saepe unde. Commodi consequuntur error, excepturi exercitationem fugiat ipsam molestias mollitia pariatur, quis tempora tempore ut voluptatem voluptatum. Accusamus aut earum repellat sapiente veniam?</p>
-						</div>
-						<button class="btn mybtn  text-center text-white rounded-0" > Read More </button>
-					</div>
-				</a>
-			</div>
+		<div class="text-center mb-5">
 
+		</div>
+		<div class="row">
+			<div class="col-sm-6 col-lg-3 mb-1-9">
+				<div class="my_wapper">
+					<div class="card-img"><img src="../images/Screenshot_1.png" alt="..." class="img-fluid"></div>
+					<div class="card-body">
+						<div>
+							<h3 class="h5">Project Demo</h3>
+							<p class="display-30">Proin gravida nibh vel velit auctor alique.</p>
+							<a href="#!" class="read-more">view project</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-6 col-lg-3 mb-1-9">
+				<div class="my_wapper">
+					<div class="card-img"><img src="../images/Screenshot_1.png" alt="..." class="img-fluid"></div>
+					<div class="card-body">
+						<div>
+							<h3 class="h5">Project Demo</h3>
+							<p class="display-30">Gravida proin nibh vel velit auctor alique.</p>
+							<a href="#!" class="read-more">view project</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-6 col-lg-3 mb-1-9">
+				<div class="my_wapper">
+					<div class="card-img"><img src="../images/Screenshot_1.png" alt="..." class="img-fluid"></div>
+					<div class="card-body">
+						<div>
+							<h3 class="h5">Project Demo</h3>
+							<p class="display-30">Nibh proin gravida vel velit auctor alique.</p>
+							<a href="#!" class="read-more">view project</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-6 col-lg-3 mb-1-9">
+				<div class="my_wapper">
+					<div class="card-img"><img src="../images/Screenshot_1.png" alt="..." class="img-fluid"></div>
+					<div class="card-body">
+						<div>
+							<h3 class="h5">Project Demo</h3>
+							<p class="display-30">Vel proin gravida nibh velit auctor alique.</p>
+							<a href="#!" class="read-more">view project</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-6 col-lg-3 mb-1-9 mb-lg-0">
+				<div class="my_wapper">
+					<div class="card-img"><img src="../images/Screenshot_1.png" alt="..." class="img-fluid"></div>
+					<div class="card-body">
+						<div>
+							<h3 class="h5">Project Demo</h3>
+							<p class="display-30">Auctor proin gravida nibh vel velit alique.</p>
+							<a href="#!" class="read-more">view project</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-6 col-lg-3 mb-1-9 mb-lg-0">
+				<div class="my_wapper">
+					<div class="card-img"><img src="../images/Screenshot_1.png" alt="..." class="img-fluid"></div>
+					<div class="card-body">
+						<div>
+							<h3 class="h5">Project Demo</h3>
+							<p class="display-30">Aliquetenean proin gravida nibh vel velit.</p>
+							<a href="#!" class="read-more">view project</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-6 col-lg-3 mb-1-9 mb-sm-0">
+				<div class="my_wapper">
+					<div class="card-img"><img src="../images/Screenshot_1.png" alt="..." class="img-fluid"></div>
+					<div class="card-body">
+						<div>
+							<h3 class="h5">Project Demo</h3>
+							<p class="display-30">Nibh auctor proin gravida vel velit aliquet.</p>
+							<a href="#!" class="read-more">view project</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-6 col-lg-3">
+				<div class="my_wapper">
+					<div class="card-img"><img src="../images/Screenshot_1.png" alt="..." class="img-fluid"></div>
+					<div class="card-body">
+						<div>
+							<h3 class="h5">Project Demo</h3>
+							<p class="display-30">Gravida aliquetenean proin nibh vel velit.</p>
+							<a href="#!" class="read-more">view project</a>
+						</div>
+					</div>
+				</div>
+			</div>
 		</div>
 	</div>
 </section>
-
-
-
 <!-- end cont stats -->
 
 
