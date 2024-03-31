@@ -24,4 +24,27 @@ Open index.html on your browser
 [Documentation](https://linktodocumentation)
 
 This repository contains a modern and responsive corporate theme built with HTML and Bootstrap. It's designed to provide a professional and sleek interface for corporate websites. The theme is fully customizable, easy to use, and adapts well to various screen sizes.
-![Screenshot_3](https://github.com/abirazmyne/Basic_Html_Bootstrap_Corporate_Theme/assets/114304896/94266a36-b8f8-42d4-be2e-1e2b1dc69fcb)
+
+
+
+## Screenshots
+
+![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+
+Home: 
+![Screenshot_4](https://github.com/abirazmyne/Basic_Html_Bootstrap_Corporate_Theme/assets/114304896/a086f23e-92e6-4d91-b908-e804ed1d6eee)
+
+About: 
+![Screenshot_6](https://github.com/abirazmyne/Basic_Html_Bootstrap_Corporate_Theme/assets/114304896/0055170b-53c3-4df2-934e-75f44bbe2385)
+
+Contact:
+![Screenshot_7](https://github.com/abirazmyne/Basic_Html_Bootstrap_Corporate_Theme/assets/114304896/9036e4bb-318a-40f2-afa8-2f0e23f5faf0)
+
+Projects:
+![Screenshot_5](https://github.com/abirazmyne/Basic_Html_Bootstrap_Corporate_Theme/assets/114304896/3fbf8a45-1b67-46fd-884e-b6219998979e)
+
+
+
+
+
+
