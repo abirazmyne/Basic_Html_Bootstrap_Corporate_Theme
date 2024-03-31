@@ -28,9 +28,6 @@ This repository contains a modern and responsive corporate theme built with HTML
 
 
 ## Screenshots
-
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
-
 Home: 
 ![Screenshot_4](https://github.com/abirazmyne/Basic_Html_Bootstrap_Corporate_Theme/assets/114304896/a086f23e-92e6-4d91-b908-e804ed1d6eee)
 
