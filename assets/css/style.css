@@ -168,7 +168,9 @@
 }
 /*End Rating css*/
 
-
+.logome{
+    max-height: 50px;
+}
 
 
 
@@ -176,16 +178,16 @@
     color: black;
 }
 .dropdown ul a:hover{
-    background: #2b77bd;
+    background: #57a57b;
     color:  #ffffff;
 }
 
 .maincolor{
-    background:  #2b77bd;
+    background:  #57a57b;
     color: white;
 }
 .maincolortext{
-    color: #2b77bd;
+    color: #57a57b;
     transition: .3s;
 }
 
@@ -244,7 +246,7 @@
     color: white;
 }
 /*#navbarNav{*/
-/*    background: #2b77bd;*/
+/*    background: #57a57b;*/
 /*    !*padding: 20px;*!*/
 /*}*/
 .left-content {
@@ -274,7 +276,7 @@
 
 
 .navbar {
-    background-color: #2b77bd;
+    background-color: #57a57b;
 
     height: 65px;
     color: white;
@@ -462,7 +464,7 @@
     bottom: 3px;
     left: 50%;
     margin-left: -14px;
-    background-color: #2b77bd;
+    background-color: #57a57b;
 }
 .one .heading:after {
     width: 100px;
@@ -473,7 +475,7 @@
     margin-top: 25px;
     left: 50%;
     margin-left: -50px;
-    background-color: #2b77bd;
+    background-color: #57a57b;
 }
 
 
@@ -544,7 +546,7 @@
 
     .collapse
     {
-        background: #2b77bd;
+        background: #57a57b;
     }
 
     .colnav{
